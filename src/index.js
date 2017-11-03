@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 
 function getURLWithSalt(URL) {
   if (typeof URL === 'string' && URL !=='' && URL.indexOf('data:') !== 0) {
